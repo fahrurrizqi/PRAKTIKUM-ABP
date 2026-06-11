@@ -1,0 +1,27 @@
+# Laravel vendor & dependencies
+modul-12/vendor/
+modul-13/vendor/
+modul-12/node_modules/
+modul-13/node_modules/
+
+# Environment files (berisi credentials sensitif)
+modul-12/.env
+modul-13/.env
+
+# Storage & cache
+modul-12/storage/logs/*
+modul-13/storage/logs/*
+modul-12/storage/framework/cache/*
+modul-13/storage/framework/cache/*
+modul-12/storage/framework/sessions/*
+modul-13/storage/framework/sessions/*
+modul-12/storage/framework/views/*
+modul-13/storage/framework/views/*
+
+# Keep storage structure
+!modul-12/storage/framework/.gitkeep
+!modul-13/storage/framework/.gitkeep
+
+# Bootstrap cache
+modul-12/bootstrap/cache/*.php
+modul-13/bootstrap/cache/*.php
